@@ -1,0 +1,37 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+  </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+  </action>
+  <action id="ConvertJavaToKotlin" />
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_down" />
+  </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="shift ctrl alt page_up" />
+  </action>
+  <action id="ExpressionTypeInfo" />
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="ctrl numpad2" />
+  </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl numpad3" />
+  </action>
+  <action id="SonarLint.AnalyzeChangedFiles">
+    <keyboard-shortcut first-keystroke="alt decimal" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl numpad4" />
+  </action>
+</keymap>

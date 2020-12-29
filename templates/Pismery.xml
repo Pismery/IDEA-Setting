@@ -1,0 +1,50 @@
+<templateSet group="Pismery">
+  <template name="ut" value="@Test&#10;public void $method$() {&#10;    //Given&#10;    $END$&#10;    //When&#10;    &#10;    //Then&#10;}" description="public void method()" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="utb" value="@Before&#10;public void init() {&#10;    $END$&#10;}" description="public void init {" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pusv" value="public static void $method$() {&#10;    $END$&#10;}" description="public static void method()" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="prsv" value="private static void $method$() {&#10;    $END$&#10;}" description="private static void method() {" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pusi" value="public static int $method$() {&#10;    $END$&#10;}" description="private static void $method$() {" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pus" value="public static $return$ $method$() {&#10;    $END$&#10;}" description="public static $return$ $method$() {" toReformat="false" toShortenFQNames="true">
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="puvm" value="public void $method$() {&#10;    $END$&#10;}" description="public void $method$() {" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="prvm" value="private void $method$() {&#10;    $END$&#10;}" description="private void $method$() {" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
